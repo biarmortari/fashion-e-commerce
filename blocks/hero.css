@@ -74,6 +74,7 @@
 .hero__image-container {
   position: relative;
   z-index: 1;
+  max-width: 640px;
 }
 
 .hero__image {
@@ -89,4 +90,37 @@
 .hero__image-star2 {
   top: -20px;
   left: 280px;
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    margin: 30px 30px;
+  }
+
+  .hero__text-container {
+    max-width: 250px;
+  }
+
+  .hero__title {
+    font-size: 36px;
+  }
+
+  .hero__image-container {
+    max-width: 350px;
+  }
+
+  .hero__image {
+    padding-right: 20px;
+    max-width: 100%;
+  }
+
+  .hero__image-star2 {
+    left: 200px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hero__image-container {
+    display: none;
+  }
 }

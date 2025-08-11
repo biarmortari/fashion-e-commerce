@@ -10,4 +10,21 @@
 
 .brands__container {
   padding: 0px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.brands__logo {
+  width: 5vw;
+}
+
+.brands__logo-shopify,
+.brands__logo-amazon {
+  width: 8vw;
+}
+
+.brands__logo-lacoste {
+  width: 10vw;
 }
