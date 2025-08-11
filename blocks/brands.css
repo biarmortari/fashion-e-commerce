@@ -28,3 +28,36 @@
 .brands__logo-lacoste {
   width: 10vw;
 }
+
+@media screen and (max-width: 768px) {
+  .brands {
+    height: 80px;
+  }
+
+  .brands__container {
+    padding: 0px 50px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .brands {
+    height: 60px;
+  }
+
+  .brands__container {
+    padding: 0px 20px;
+  }
+
+  .brands__logo {
+    width: 10vw;
+  }
+
+  .brands__logo-shopify,
+  .brands__logo-amazon {
+    width: 12vw;
+  }
+
+  .brands__logo-lacoste {
+    width: 14vw;
+  }
+}
