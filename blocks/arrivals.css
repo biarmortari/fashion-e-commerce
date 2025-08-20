@@ -1,0 +1,60 @@
+.arrivals {
+  background-color: #ffffff;
+}
+
+.arrivals__container {
+  max-width: 1640px;
+  padding: 0px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 90px;
+}
+
+.arrivals__item-image {
+  width: 100%;
+  height: auto;
+}
+
+.arrivals__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.arrivals__item-title {
+  font-weight: 500;
+  font-size: 18px;
+  color: #191919;
+  margin: 0;
+}
+
+.arrivals__item-subtitle {
+  font-weight: 500;
+  font-size: 14px;
+  color: #7f7f7f;
+  margin: 0;
+}
+
+.arrow-right {
+  display: inline-block;
+  width: 20px;
+  height: 2px;
+  background-color: #7f7f7f;
+  position: relative;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.arrow-right::after {
+  content: "";
+  position: absolute;
+  top: -5px;
+  right: 1px;
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid #7f7f7f;
+  border-bottom: 2px solid #7f7f7f;
+  transform: rotate(-45deg);
+}
