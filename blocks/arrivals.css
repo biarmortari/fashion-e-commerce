@@ -1,5 +1,6 @@
 .arrivals {
   background-color: #ffffff;
+  padding: 0px 100px;
 }
 
 .arrivals__title-container {
@@ -8,7 +9,7 @@
 
 .arrivals__title {
   position: relative;
-  padding: 10px 100px 30px;
+  padding: 10px 0px 30px;
   font-size: 28px;
   z-index: 1;
 }
@@ -22,7 +23,6 @@
 
 .arrivals__container {
   max-width: 1640px;
-  padding: 0px 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -76,4 +76,46 @@
   border-right: 2px solid #7f7f7f;
   border-bottom: 2px solid #7f7f7f;
   transform: rotate(-45deg);
+}
+
+@media screen and (max-width: 768px) {
+  .arrivals {
+    padding: 0 30px;
+  }
+
+  .arrivals__title {
+    font-size: 24px;
+  }
+
+  .arrivals__title-vector {
+    top: 6px;
+    left: 50px;
+    max-width: 146px;
+  }
+
+  .arrivals__container {
+    gap: 70px;
+  }
+
+  .arrivals__item-title {
+    font-size: 16px;
+  }
+
+  .arrivals__item-subtitle {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .arrivals__container {
+    flex-direction: column;
+  }
+
+  .arrivals__container {
+    gap: 50px;
+  }
+
+  .arrivals__card {
+    max-width: 70%;
+  }
 }
