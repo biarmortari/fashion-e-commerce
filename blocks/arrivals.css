@@ -2,6 +2,24 @@
   background-color: #ffffff;
 }
 
+.arrivals__title-container {
+  position: relative;
+}
+
+.arrivals__title {
+  position: relative;
+  padding: 10px 100px 30px;
+  font-size: 28px;
+  z-index: 1;
+}
+
+.arrivals__title-vector {
+  position: absolute;
+  top: 5px;
+  left: 150px;
+  max-width: 186px;
+}
+
 .arrivals__container {
   max-width: 1640px;
   padding: 0px 100px;
@@ -35,6 +53,7 @@
   font-size: 14px;
   color: #7f7f7f;
   margin: 0;
+  padding-top: 5px;
 }
 
 .arrow-right {
