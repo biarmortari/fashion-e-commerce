@@ -1,0 +1,48 @@
+.banner {
+  background-color: #f6da52;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner__image-container {
+  position: relative;
+}
+
+.banner-image {
+  width: 780px;
+  height: auto;
+}
+
+.banner-star {
+  position: absolute;
+  width: 50px;
+  height: auto;
+  top: 120px;
+  left: 120px;
+}
+
+.banner-star-1 {
+  position: absolute;
+  width: 50px;
+  height: auto;
+  top: 100px;
+  right: 70px;
+}
+
+.banner-star-2 {
+  position: absolute;
+  width: 50px;
+  height: auto;
+  top: 400px;
+  left: 180px;
+}
+
+.banner-star-3 {
+  position: absolute;
+  width: 50px;
+  height: auto;
+  top: 500px;
+  right: 90px;
+}
