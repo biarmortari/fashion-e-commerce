@@ -1,48 +1,52 @@
 .banner {
-  background-color: #f6da52;
+  background-image: linear-gradient(to bottom, #f9df56, #edce49, #e0c340);
   margin-top: 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.banner__image-container {
-  position: relative;
-}
-
 .banner-image {
-  width: 780px;
+  width: 580px;
   height: auto;
 }
 
-.banner-star {
-  position: absolute;
-  width: 50px;
-  height: auto;
-  top: 120px;
-  left: 120px;
+.banner__text-container {
+  max-width: 300px;
+  padding-right: 20%;
 }
 
-.banner-star-1 {
-  position: absolute;
-  width: 50px;
-  height: auto;
-  top: 100px;
-  right: 70px;
+.banner__title {
+  font-size: 50px;
 }
 
-.banner-star-2 {
-  position: absolute;
-  width: 50px;
-  height: auto;
-  top: 400px;
-  left: 180px;
+.banner__subtitle {
+  font-weight: 500;
 }
 
-.banner-star-3 {
-  position: absolute;
-  width: 50px;
-  height: auto;
-  top: 500px;
-  right: 90px;
+.banner__date {
+  font-weight: 900;
+}
+
+.banner__terms {
+  font-weight: 500;
+}
+
+.banner__button {
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  width: 100px;
+  height: 45px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0.03em;
+}
+
+.banner__button:hover {
+  background-color: #ffffff;
+  color: #000000;
+  transition: opacity 0.3s ease-in-out;
 }
