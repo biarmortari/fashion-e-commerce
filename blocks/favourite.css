@@ -1,0 +1,17 @@
+.favourite {
+  background-color: #ffffff;
+  padding: 0px 100px;
+}
+
+.favourite__container {
+  max-width: 1500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.favourite__item-image {
+  width: 100%;
+  height: auto;
+}
