@@ -3,15 +3,134 @@
   padding: 0px 100px;
 }
 
+.favourite__title-container {
+  position: relative;
+}
+
+.favourite__title {
+  position: relative;
+  padding: 10px 0px 30px;
+  font-size: 28px;
+  z-index: 1;
+}
+
+.favourite__title-vector {
+  position: absolute;
+  top: 5px;
+  left: 140px;
+  max-width: 186px;
+}
+
 .favourite__container {
   max-width: 1500px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
 }
 
 .favourite__item-image {
   width: 100%;
   height: auto;
+}
+
+.favourite__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.favourite__item-title {
+  font-weight: 500;
+  font-size: 18px;
+  color: #191919;
+  margin: 0;
+}
+
+.favourite__item-subtitle {
+  font-weight: 500;
+  font-size: 14px;
+  color: #7f7f7f;
+  margin: 0;
+  padding-top: 5px;
+}
+
+.arrow-right {
+  display: inline-block;
+  width: 20px;
+  height: 2px;
+  background-color: #7f7f7f;
+  position: relative;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.arrow-right::after {
+  content: "";
+  position: absolute;
+  top: -5px;
+  right: 1px;
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid #7f7f7f;
+  border-bottom: 2px solid #7f7f7f;
+  transform: rotate(-45deg);
+}
+
+@media screen and (max-width: 768px) {
+  .favourite {
+    padding: 0 30px;
+  }
+
+  .favourite__title {
+    font-size: 24px;
+  }
+
+  .favourite__title-vector {
+    top: 6px;
+    left: 120px;
+    max-width: 146px;
+  }
+
+  .favourite__container {
+    gap: 70px;
+  }
+
+  .favourite__item-title {
+    font-size: 16px;
+  }
+
+  .favourite__item-subtitle {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .favourite {
+    padding: 0;
+  }
+
+  .favourite__title {
+    font-size: 24px;
+    padding-left: 30px;
+  }
+
+  .favourite__container {
+    flex-direction: column;
+  }
+
+  .favourite__container {
+    gap: 50px;
+  }
+
+  .favourite__card {
+    max-width: 70%;
+  }
+
+  .favourite__title-vector {
+    top: 8px;
+    left: 160px;
+    max-width: 136px;
+  }
 }

@@ -25,7 +25,7 @@
   max-width: 1640px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: self-start;
   gap: 90px;
 }
 
@@ -107,8 +107,18 @@
 }
 
 @media screen and (max-width: 480px) {
+  .arrivals {
+    padding: 0;
+  }
+
+  .arrivals__title {
+    font-size: 24px;
+    padding-left: 30px;
+  }
+
   .arrivals__container {
     flex-direction: column;
+    align-items: center;
   }
 
   .arrivals__container {
