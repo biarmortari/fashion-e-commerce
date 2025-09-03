@@ -47,4 +47,41 @@
   font-size: 20px;
   letter-spacing: 1px;
   position: absolute;
+  top: 3px;
+  right: 3px;
+}
+
+@media screen and (max-width: 425px) {
+  .subscription {
+    padding: 30px;
+  }
+
+  .subscription__title {
+    font-size: 24px;
+    max-width: 100%;
+  }
+
+  .subscription__subtitle {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .subscription__input {
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    height: 40px;
+  }
+
+  .subscription__button {
+    width: 70px;
+    height: 35px;
+    top: 3px;
+    right: 3px;
+  }
+
+  .subscription__input::placeholder {
+    font-size: 15px;
+  }
 }
