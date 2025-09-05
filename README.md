@@ -1,4 +1,4 @@
-# Catalog E-Commerce 🛍️
+# Fashion E-Commerce 🛍️
 
 Este projeto é uma **landing page responsiva** de uma loja fictícia de roupas, desenvolvido como estudo de **HTML, CSS e JavaScript** durante meu aprendizado em desenvolvimento web. O objetivo foi praticar a construção de interfaces modernas para portfólio, aplicando conceitos de **responsividade**, **semântica** e boas práticas de estilização.
 
