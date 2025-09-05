@@ -52,6 +52,11 @@
   right: 3px;
 }
 
+.subscription__button:hover {
+  background-color: #e5c643;
+  color: #000000;
+}
+
 @media screen and (max-width: 425px) {
   .subscription {
     padding: 30px;
